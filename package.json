@@ -1,16 +1,24 @@
 {
   "name": "content-addressable-json",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "JSON with a hash based on it's logical content",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node example.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["json", "multihash", "buffer", "canonical-json"],
+  "author": "Jelle 'wires' Herold <jelle@defekt.nl>",
+  "license": "MIT",
   "dependencies": {
     "canonical-json": "^0.0.4",
     "multihashes": "^0.3.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wires/content-addressable-json.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wires/content-addressable-json/issues"
+  },
+  "homepage": "https://github.com/wires/content-addressable-json"
 }
